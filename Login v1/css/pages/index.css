@@ -104,7 +104,7 @@ body {
     display: block;
     width: 100%;
     padding: 0.75rem;
-    background: #1758C1;
+    background: #5A8BA3;
     border: 1px solid var(--accent);
     color: white;
     font-weight: 600;
@@ -113,10 +113,24 @@ body {
 }
 
 .login-card .btn-primary:hover {
-    background: #001D4A;
+    background: #3F6B83;
     border-color: var(--accent-hover);
 }
 
+
+.input-group-text {
+    padding: 0.75rem 1rem !important;
+    height: 100% !important;
+    border-radius: 0.5rem 0 0 0.5rem !important;
+}
+
+
+/* ==============================
+   FAQ
+   ============================== */
+.faq-answer {
+    text-align: justify;
+}
 
 /* ==============================
    Footer
